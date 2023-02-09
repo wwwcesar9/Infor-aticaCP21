@@ -1,0 +1,23 @@
+/*=============== CATEGORY ===============*/
+.categorias__container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 2rem;
+  }
+  
+  .categorias__data{
+    text-align: center;
+  }
+  
+  .categorias__img{
+    width: 170px;
+    margin-bottom: var(--mb-0-75);
+    transition: .59s;
+  }
+  
+  .categorias__title{
+    margin-bottom: var(--mb-0-25);
+  }
+  
+  .categorias__data:hover .categorias__img{
+    transform: translateY(-.5rem);
+  }

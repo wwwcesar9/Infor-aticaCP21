@@ -1,0 +1,76 @@
+.house__content{
+    row-gap: 0.9em;
+  }
+  
+  .house__group{
+    display: grid;
+    position: relative;
+    padding-top: 1.5rem;
+    margin-top: -20px;
+  }
+  
+  .house__img{
+    height: 250px;
+    margin-top: 5px;
+    justify-self: center;
+  /*animation: floating 3.1s  ease-in-out infinite;*/   
+  }
+  
+  /* .house__indicator{
+    width: 8px;
+    height: 8px;
+    background-color: var(--title-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 7rem;
+    right: 2rem;
+  }
+  
+  .house__indicator::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 48px;
+    background-color: var(--title-color);
+    top: -3rem;
+    right: 45%;
+  } */
+  
+  .house__details-img{
+    position: absolute;
+    right: .5rem;
+  }
+  
+  .house__details-title,
+  .house__details-subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    text-align: right;
+    text-decoration: underline;
+    
+  }
+  
+  .house__subtitle{
+    /* font-size: var(--h3-font-size); */
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: var(--mb-1);
+  }
+  
+  .house__title{
+    font-size: 32.5px;
+    /* font-size: var(--biggest-font-size); */
+    font-weight: var(--font-black);
+    line-height: 129%;
+    margin-bottom: var(--mb-1);
+  }
+  
+  .house__description{
+    margin-bottom: var(--mb-1);
+   
+  }
+  
+  .house__buttons{
+    display: flex;
+    justify-content: space-between;
+  }
